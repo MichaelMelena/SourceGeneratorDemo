@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneratorConsole", "SourceGeneratorDemo\SourceGeneratorConsole.csproj", "{38C97BBB-F898-4563-90EB-12B2B3ED39BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneratorLibrary", "SourceGeneratorLibrary\SourceGeneratorLibrary.csproj", "{861DA787-EDB2-4DDA-BA85-0860A6F89932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20737345-CAD2-4944-B630-AFD9494C4E61}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38C97BBB-F898-4563-90EB-12B2B3ED39BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C97BBB-F898-4563-90EB-12B2B3ED39BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C97BBB-F898-4563-90EB-12B2B3ED39BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C97BBB-F898-4563-90EB-12B2B3ED39BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861DA787-EDB2-4DDA-BA85-0860A6F89932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861DA787-EDB2-4DDA-BA85-0860A6F89932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861DA787-EDB2-4DDA-BA85-0860A6F89932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861DA787-EDB2-4DDA-BA85-0860A6F89932}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B3C044-66B5-4920-B540-405F169213CB}
+	EndGlobalSection
+EndGlobal

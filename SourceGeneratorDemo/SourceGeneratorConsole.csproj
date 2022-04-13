@@ -9,8 +9,7 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\SourceGeneratorLibrary\SourceGeneratorLibrary.csproj"
-						  OutputItemType="Analyzer"
-						  ReferenceOutputAssembly="false" />
+		<ProjectReference Include="..\OtherLibrary\OtherLibrary.csproj" />
+		<ProjectReference Include="..\SourceGeneratorLibrary\SourceGeneratorLibrary.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 	</ItemGroup>
 </Project>
